@@ -5,12 +5,12 @@
 
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
-#define SDA_PIN  PC4  // Chân A4
-#define SCL_PIN  PC5  // Chân A5
+#define SDA_PIN  PC4  
+#define SCL_PIN  PC5  
 
-#define VCC_PIN  PB0  // Chân D8  -> Giả lập VCC (5V) cho Cảm biến
-#define GND_PIN  PB1  // Chân D9  -> Giả lập GND (0V) cho Cảm biến
-#define RW_PIN   PB2  // Chân D10 -> Giả lập GND (0V) cho chân RW của LCD
+#define VCC_PIN  PB0  
+#define GND_PIN  PB1 
+#define RW_PIN   PB2  
 
 #define TEMP_SENSOR_ADDR 0x38 
 
