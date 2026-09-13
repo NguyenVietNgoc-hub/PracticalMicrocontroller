@@ -5,7 +5,7 @@
 #define DIR_PIN  PD4
 #define EN_PIN   PD2
 
-#define STEPS_PER_REV 200   // full step mode, 1.8 deg/step motor
+#define STEPS_PER_REV 200   
 
 void stepper_init(void)
 {
